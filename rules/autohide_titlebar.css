@@ -1,0 +1,13 @@
+
+#main-window #TabsToolbar {
+  overflow: hidden;
+  height: 2.7em !important;
+  transition: height 0.3s 0.3s !important;
+}
+
+/* Hidden state: Hide native tabs strip */
+#main-window[titlepreface*="---"] #TabsToolbar {
+  display: none;
+  visibility: hidden;
+}
+
